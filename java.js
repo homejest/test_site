@@ -12,8 +12,7 @@ function checkLogin() {
         alert('There is nothing!')
     }
     else if (login.value == trulog && password.value == trupass) {
-        document.querySelector('.photo').style.display ='block'
-        alert('Right!')
+        window.location.href='about.html'
     }
     else {
         alert('Wrong!')
