@@ -12,17 +12,25 @@
     </div>
     <div id="loginIn">
         <div class="all">
-            <input class="logPas" id="login" type="email" placeholder="Логин">
+            <input class="logPas" id="login" type="text" placeholder="Логин">
+            <div id="erorMes" style="display: none;">
+                <p style="margin: 0px; text-align: center;">Неверный логин или пароль</p>
+            </div>
+            <div id="notMes" style="display: none;">
+                <p style="text-align: center; margin: 0px;">Эти поле необходимо заполнить</p>
+            </div>
             <br>
             <input class="logPas" id="password" type="password" placeholder="Пароль">
             <br>
             <button id="logBut">Вход</button>
         </div>
     </div>
-    <div id="help" style="opacity: 30%; text-align: center;">
+    <div id="help" style="display: none; opacity: 30%; text-align: center;">
         <h1>
             Login: 1234; Password: 5678
         </h1>
     </div>
+
+    <script src="js/js index.js"></script>
 </body>
 </html>
