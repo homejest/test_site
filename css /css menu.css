@@ -1,0 +1,16 @@
+body {
+    background-color: aqua;
+}
+button {
+    color: black;
+    background-color:bisque;
+    border-color:aquamarine;
+    padding: 10px 15px;
+    border-radius: 0.25rem;
+}
+button:hover {
+    border-color:red;
+}
+.center {
+    text-align: center;
+}
